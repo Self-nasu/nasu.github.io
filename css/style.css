@@ -1,0 +1,600 @@
+* {
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', 'Fira Sans', 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+
+}
+
+/* navigation bar css */
+
+.navbar-holder {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar-back {
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-left: 150px;
+    padding-right: 170px;
+    background-color: rgb(138, 224, 255);
+    box-shadow: 0px 4px 4px -4px rgba(0, 0, 0, 0.297);
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+}
+
+.auto-type {
+    font-weight: bold;
+    font-family: 'Mogra';
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 3px;
+    padding-top: 3px;
+}
+
+.center-tab-hod {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-right: 2em;
+}
+
+#navshow-pc {
+    display: none;
+    list-style: none;
+    align-items: center;
+    margin: 0px;
+    padding-bottom: 3px;
+}
+
+.nav-items {
+    margin-left: 0.7em;
+}
+
+.nav-it-a>span:hover {
+    color: blue;
+}
+
+.nav-logo {
+    height: 35px;
+}
+
+.nav-it-a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-it-a>span {
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Fira Sans';
+}
+
+.toggle-hod {
+    display: flex;
+    align-items: center;
+}
+
+.togglesize {
+    width: 2.2em;
+}
+
+/* end of navigation bar css */
+
+/* start of landing page css */
+
+.landing-pg {
+    position: relative;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(0, 117, 255, 0.9613095238095238) 1%, rgba(54, 149, 252, 1) 18%, rgba(164, 207, 245, 1) 40%, rgba(183, 236, 241, 1) 65%, rgba(255, 255, 240, 1) 82%);
+}
+
+
+.landing-holder {
+    display: flex;
+    background-image: url("https://media.discordapp.net/attachments/1106481810273206293/1110127623671128144/Untitled-1.png?");
+    background-repeat: repeat-x;
+    background-size: 550px;
+    background-position: 0px 125px;
+    height: 500px;
+    position: relative;
+    box-shadow: inset 0px -14px 11px -1px rgba(255, 255, 255, 1);
+}
+
+.cloud {
+    display: flex;
+    mix-blend-mode: screen;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+    margin-top: 0px;
+}
+
+.land-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    z-index: 1;
+}
+
+.land-txt-ul {
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+.ld-txt {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+
+}
+
+.auto-type2 {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    z-index: 1;
+    font-family: 'Pacifico';
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-left: 4px;
+}
+
+.land-right {
+    display: flex;
+    margin-left: auto;
+    z-index: 1;
+}
+
+.land-right>img {
+    height: 480px;
+    margin-right: 180px;
+}
+
+/* end of landing page css */
+
+/* start of about section css*/
+
+#about-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.ab-left>img {
+    height: 300px;
+    margin-left: 150px;
+    border-radius: 10px;
+    border: 1px solid rgba(154, 154, 154, 0.879);
+}
+
+.ab-right {
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.ab-txt1 {
+    margin-bottom: 5px;
+}
+
+.ab-txt2 {
+    margin-bottom: 14px;
+}
+
+.ab-txt3 {
+    margin-bottom: 45px;
+}
+
+.ab-div3,
+.nor-font {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ab-div4 {
+    color: rgb(104, 104, 242);
+    font-size: 15px;
+    font-weight: normal;
+    background-color: transparent;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid rgb(104, 104, 242);
+    border-radius: 20px;
+}
+
+.ab-div4:hover {
+    color: white;
+    background-color: rgb(104, 104, 242);
+}
+
+/* end of about section */
+
+/* start of service section css */
+
+.service-holder {
+    display: block;
+}
+
+.sr-heading {
+    text-align: center;
+}
+
+.sr-txt1 {
+    margin-bottom: 4px;
+}
+
+.sr-cards-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sr-card {
+    margin: 50px;
+    height: 220px;
+    width: 250px;
+    padding-top: 30px;
+    border: 1px solid #595959a2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.257);
+}
+
+.sr-cd {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-h {
+    color: rgb(104, 104, 242);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.card-txt {
+    display: none;
+    line-height: 20px;
+    padding: 20px;
+    padding-top: 12px;
+}
+
+/* cards animation */
+
+.sr-card:hover {
+    cursor: pointer;
+    padding-top: 20px;
+    position: relative;
+    height: 220px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.146);
+}
+
+.sr-card:hover .cd-icon1 {
+    width: 120px;
+}
+
+.sr-card:hover .cd-icon2 {
+    width: 150px;
+}
+
+.sr-card:hover .cd-icon3 {
+    width: 150px;
+}
+
+.sr-card:hover .card-h {
+    margin-top: 15px;
+}
+
+.sr-card:hover .card-txt {
+    display: flex;
+}
+
+/* end of card animation */
+
+/* card 1 css */
+
+.cd-icon1 {
+    width: 150px;
+    align-self: center;
+}
+
+/* card 2 css */
+
+.cd-icon2 {
+    width: 200px;
+    align-self: center;
+}
+
+/* card 3 css */
+
+.cd-icon3 {
+    width: 200px;
+    align-self: center;
+}
+
+/* end of service section css */
+
+/* start of portfolio section */
+
+.port-heading {
+    text-align: center;
+}
+
+.port-table-holder {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* education table css */
+
+.edu-tb-hold {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-table {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+/* education table css */
+
+.exp-tb-hold {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.exp-table {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+/* end of portfolio section */
+
+/* start of contact section css */
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-form-hold {
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+.cont-form {
+    display: block;
+}
+
+.et-hold1 {
+    display: flex;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.et-hold2 {
+    display: flex;
+}
+
+.form-input {
+    border: 1px solid rgba(152, 152, 152, 0.636);
+    border-radius: 5px;
+    font-size: medium;
+    padding: 5px;
+    width: 18em;
+}
+
+.form-input:focus {
+    box-shadow: 0px 0px 1px 1px rgba(188, 188, 255, 0.862);
+    border: 1px solid rgba(152, 152, 152, 0.636);
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-textarea {
+    border: 1px solid rgba(152, 152, 152, 0.636);
+    border-radius: 5px;
+    font-size: medium;
+    padding: 5px;
+    width: 98%;
+    height: 8em;
+}
+
+.form-textarea:focus {
+    box-shadow: 0px 0px 1px 1px rgba(188, 188, 255, 0.862);
+    border: 1px solid rgba(152, 152, 152, 0.636);
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-submit {
+    background-color: limegreen;
+    border-radius: 5px;
+    border: 1px solid rgba(152, 152, 152, 0.636);
+    font-size: medium;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.form-submit:hover {
+    border: 1px solid rgba(34, 2, 2, 0.636);
+    border-radius: 5px;
+    background-color: rgb(52, 174, 52);
+}
+
+/* end of contact section css */
+
+/* start of get in touch css */
+
+.touch-holder {
+    background-color: rgb(104, 104, 242);
+    width: 100%;
+    margin-top: 50px;
+}
+
+.touch-heading {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.touch-heading>a {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.touch-butt {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.icons>i {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.icons>a {
+    font-size: medium;
+    color: white;
+}
+
+/* end of get in touch css */
+
+/* start of social section */
+
+.social-holder {
+    background-color: rgb(104, 104, 242);
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.soc-icons {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: large;
+}
+.soc-icons>i{
+    color: white;
+    font-size: large;
+}
+.social-holder2 {
+    background-color: rgb(104, 104, 242);
+    padding: 0px;
+    display: none;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 7px;
+}
+
+.soc-icons>i {
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* end of social section */
+
+/* start of footer css */
+
+.footer {
+    margin-top: 30px;
+}
+
+.foot-holder {
+    display: flex;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.get-temp {
+    margin-left: auto;
+}
+
+/* end of footer css */
+
+/* mobile navbar css */
+
+
+.main-header {
+    position: relative;
+    z-index: 0;
+}
+
+.mb-navbar {
+    position: absolute;
+    z-index: 5;
+    margin-top: 50px;
+    display: none;
+}
+
+#navshow-mb {
+    display: none;
+}

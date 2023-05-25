@@ -2,152 +2,527 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- main head -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasu Portfolio</title>
 
-  <title>Nasu - main page</title>
+    <!-- Google font linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
 
-  <!-- Favicons -->
-  <link href="https://media.discordapp.net/attachments/1106481810273206293/1106484065735024650/mainlogo.png?width=585&height=585" rel="icon">
-  <link href="https://media.discordapp.net/attachments/1106481810273206293/1106484065735024650/mainlogo.png?width=585&height=585" rel="apple-touch-icon">
+    <!-- My Css linking -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/preload.css">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- animation css linking -->
+    <link rel="stylesheet" href="animation/mymade.css">
 
-  <!-- Bootstrap CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- premade css for outside -->
+    <link rel="stylesheet" href="css/premade.css">
+    <link rel="stylesheet" href="css/movingclouds.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <!-- bootstarp icons -->
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- premade animation for animation.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-  <!-- google ads linking-->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8389169647852797"
-     crossorigin="anonymous"></script>
-     <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script>
+    <!-- google ads linking-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8389169647852797"
+    crossorigin="anonymous"></script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+
+    <!-- website favicon -->
+    <link rel="icon" href="https://media.discordapp.net/attachments/1109774211087613952/1109774589220884522/favicon.png?" type="image/png">
+
 </head>
 
 <body>
 
-  <amp-auto-ads type="adsense"
-        data-ad-client="ca-pub-8389169647852797">
-</amp-auto-ads>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-8389169647852797">
+    </amp-auto-ads>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="https://media.discordapp.net/attachments/1106481810273206293/1109651348116492429/myimg4.png?width=662&height=662" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Self.nasu</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://www.instagram.com/self.nasu/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Self-nasu" class="GitHub"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/nasu1708/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://www.youtube.com/@nasuanimator" class="youtube"><i class="bx bxl-youtube"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100092486165369" class="facebook"><i class="bx bxl-facebook"></i></a>
+    <div class="preloader">
+        <div class="loader">
         </div>
       </div>
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="https://github.com/self-nasu" class="nav-link scrollto"><i class="bx bx-user"></i> <span>GitHub</span></a></li>
-          <li><a href="https://discord.gg/vMXHsEtUzE" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Discord</span></a></li>
-          <li><a href="https://self-nasu.github.io/nasustudios.github.io/" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Nasu Studios</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Self.nasu</h1>
-      <p>Owned by <span class="typed" data-typed-items="Nasu., Naman.,"></span></p>
-      <p>Work Under Progress......</p>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact Me</h2>
-          <p>Just fell Free to contact me. I love interacting with peoples.</p>
+    <header class="main-header" id="home">
+        <!-- header starting -->
+        <div class="move-nav">
+            <section class="navbar-holder">
+                <!-- navigation bar start -->
+                <nav class="navbar-back">
+                    <div class="left-tabs-hod">
+                        <!-- left side of navigation bar -->
+                        <a class="main-logo" href="#home"><span class="auto-type">Naman Jain</span></a>
+                    </div>
+                    <div class="center-tab-hod">
+                        <!-- mid of nav bar main menu for big screen -->
+                        <ul id="navshow-pc">
+                            <li class="nav-items animate__animated animate__flipInX animate__delay-0s ">
+                                <a class="nav-it-a" href="#home">
+                                    <img class="nav-logo"
+                                        src="https://media.discordapp.net/attachments/1106482658449555516/1110048165362667540/home2.png?">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-items animate__animated animate__flipInX animate__delay-0s">
+                                <a class="nav-it-a" href="#about">
+                                    <img class="nav-logo"
+                                        src="https://media.discordapp.net/attachments/1106482658449555516/1110048165131976714/about2.png?">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li class="nav-items animate__animated animate__flipInX animate__delay-0s">
+                                <a class="nav-it-a" href="#portfolio">
+                                    <img class="nav-logo"
+                                        src="https://media.discordapp.net/attachments/1106482658449555516/1110048163903062056/portfoilo_2.png?">
+                                    <span>Portfolio</span>
+                                </a>
+                            </li>
+                            <li class="nav-items animate__animated animate__flipInX animate__delay-0s">
+                                <a class="nav-it-a" href="#contact">
+                                    <img class="nav-logo"
+                                        src="https://media.discordapp.net/attachments/1106482658449555516/1110048164934860922/contact24.png?">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                            <li class="nav-items animate__animated animate__flipInX animate__delay-0s">
+                                <a class="nav-it-a" href="https://self-nasu.github.io/nasustudios.github.io/">
+                                    <img class="nav-logo"
+                                        src="https://media.discordapp.net/attachments/1106482658449555516/1110048164725133312/nasu_studios.png?">
+                                    <span>Nasu studios</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-tabs-hod">
+                        <!-- right side of navigation bar -->
+                        <div class="toggle-hod">
+                            <button class="menu"
+                                onclick="hideshow(); this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                                aria-label="Main Menu">
+                                <svg class="togglesize" viewBox="0 0 100 100">
+                                    <path class="line line1"
+                                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                                    <path class="line line2" d="M 20,50 H 80" />
+                                    <path class="line line3"
+                                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+        
+            </section><!-- navigation bar end -->
+            <section class="mb-navbar">
+                <div class="center-tab-hod">
+                    <ul id="navshow-mb" class="animate__animated animate__fadeInLeft">
+                        <div class="profile">
+                            <div class="img-hold">
+                                <img src="https://media.discordapp.net/attachments/1106481810273206293/1109651348116492429/myimg4.png?">
+                                <a>Naman jain</a>
+                            </div>
+                            <div class="nav-social-hod">
+                                <a href="">
+                                    <i class="bi bi-instagram sdnav-icon"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-linkedin sdnav-icon"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-facebook sdnav-icon"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-github sdnav-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <li class="nav-items animate__animated animate__flipInX animate__delay-0.5s ">
+                            <a class="nav-it-a" href="#home">
+                                <img class="nav-logo"
+                                    src="https://media.discordapp.net/attachments/1106482658449555516/1110048165362667540/home2.png?">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-items animate__animated animate__flipInX animate__delay-0.5s">
+                            <a class="nav-it-a" href="#about">
+                                <img class="nav-logo"
+                                    src="https://media.discordapp.net/attachments/1106482658449555516/1110048165131976714/about2.png?">
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="nav-items animate__animated animate__flipInX animate__delay-0.5s">
+                            <a class="nav-it-a" href="#portfolio">
+                                <img class="nav-logo"
+                                    src="https://media.discordapp.net/attachments/1106482658449555516/1110048163903062056/portfoilo_2.png?">
+                                <span>Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav-items animate__animated animate__flipInX animate__delay-0.5s">
+                            <a class="nav-it-a" href="#contact">
+                                <img class="nav-logo"
+                                    src="https://media.discordapp.net/attachments/1106482658449555516/1110048164934860922/contact24.png?">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                        <li class="nav-items animate__animated animate__flipInX animate__delay-0.5s">
+                            <a class="nav-it-a" href="https://self-nasu.github.io/nasustudios.github.io/">
+                                <img class="nav-logo"
+                                    src="https://media.discordapp.net/attachments/1106482658449555516/1110048164725133312/nasu_studios.png?">
+                                <span>Nasu studios</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
 
-        <div class="row" data-aos="fade-in">
+    </header> <!-- header ending -->
 
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Badrana, Udaipur, Rajasthan Pincode. 313702</p>
-              </div>
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>nasuchacha1708@gmail.com</p>
-              </div>
+    <section class="landing-pg">
+        <!-- start of landing page -->
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 7877452256</p>
-              </div>
+        <div class="landing-holder">
+            <video autoplay loop muted class="cloud">
+                <source src="video/cloudmove2.mp4" type="video/mp4">
+            </video>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14531.241117013795!2d73.4440437!3d24.4226578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8808921c47492f%3A0xcd4989f63d179f0d!2snasu%20studios!5e0!3m2!1sen!2sin!4v1684632329347!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            <div class="land-txt">
+                <ul class="land-txt-ul">
+                    <li>
+                        <a class="ld-txt"></a>
+                    </li>
+                    <li>
+                        <a class="ld-txt ld-a1">My self Nasu ,</a>
+                    </li>
+                    <li>
+                        <a class="ld-txt ld-a2">I am a
+                            <span class="auto-type2"></span> .
+                        </a>
+                    </li>
+                </ul>
+
             </div>
-
-          </div>
-
+            <div class="land-right">
+                <img src="">
+            </div>
         </div>
 
-      </div>
-    </section><!-- End Contact Section -->
+    </section> <!-- end of landing page -->
 
-  </main><!-- End #main -->
+    <section class="about" id="about">
+        <!-- start of about section -->
+        <div class="about-holder sec-gap" id="about-holder">
+            <div class="ab-left">
+                <img src="https://media.discordapp.net/attachments/1106481810273206293/1109651348116492429/myimg4.png?">
+            </div>
+            <div class="ab-right">
+                <div class="ab-txt1">
+                    <a class="ab-div1 sm-h">Who Am I ?</a>
+                </div>
+                <div class="ab-txt2">
+                    <a class="ab-div2 mid-h">About me</a>
+                </div>
+                <div class="ab-txt3">
+                    <a class="ab-div3 ab-lg1">Hi, I'm Jain Naman, a 21-year-old BCA graduate with a passion for computer
+                        science and technology. I
+                        pursued my 11-12th grade education in the Science and Mathematics fields from Surat,
+                        Gujarat.</a>
+                    <a class="ab-div3 ab-lg2">During my time as a BCA student, I gained experience in programming, web
+                        development, and database management. I'm
+                        interested in pursuing higher studies in MCA to further develop my skills and knowledge in this
+                        exciting field.</a>
+                </div>
+                <div class="ab-txt4">
+                    <a class="ab-div4 button-d"
+                        href="https://cdn.discordapp.com/attachments/1107621705301643344/1107622574977990656/link_resume_online.pdf"
+                        download="">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section> <!-- end of about section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Naman Jain Aka Nasu.</span></strong>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
+    <section class="service" id="service">
+        <!-- start od sevice section -->
+        <div class="service-holder sec-gap">
+            <div class="sr-heading">
+                <div class="sr-txt1">
+                    <a class="sr-div1 sm-h">What I Do ?</a>
+                </div>
+                <div class="sr-txt2">
+                    <a class="sr-div2 mid-h">Services</a>
+                </div>
+            </div>
+            <div class="sr-cards-holder">
+                <div class="sr-card">
+                    <a class="sr-cd" href="">
+                        <img class="cd-icon1"
+                            src="https://media.discordapp.net/attachments/1110268705537003610/1110395234149482526/web_devep_card.png?">
+                        <span class="sr-cd-span1 card-h">Web Development</span>
+                        <span class="cd-sp1-show card-txt nor-font animate__animated animate__fadeInDown animate__delay-0s">I make awsome website desings based on UI/UX. Vist
+                            the page to know more.</span>
+                    </a>
+                </div>
+                <div class="sr-card">
+                    <a class="sr-cd" href="">
+                        <img class="cd-icon2"
+                            src="https://media.discordapp.net/attachments/1110268705537003610/1110395234745073674/GFX_card.png?">
+                        <span class="sr-cd-span2 card-h">GFX Desings</span>
+                        <span class="cd-sp2-show card-txt nor-font animate__animated animate__fadeInDown animate__delay-0s">I make GFX for professional ceators at Nasu studios.
+                            Vist the page to know more.</span>
+                    </a>
+                </div>
+                <div class="sr-card">
+                    <a class="sr-cd" href="">
+                        <img class="cd-icon3"
+                            src="https://media.discordapp.net/attachments/1110268705537003610/1110395234476630016/animation_card.png?">
+                        <span class="sr-cd-span3 card-h">3D Animation</span>
+                        <span class="cd-sp3-show card-txt  nor-font animate__animated animate__fadeInDown animate__delay-0s">I also make cartoon based 3D aimations using
+                            blender. Vist the page to Know more.</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> <!-- end of service section -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <section class="portfolio" id="portfolio">
+        <!-- start of portfolio section -->
+        <div class="portfolio-holder sec-gap">
+            <div class="port-heading">
+                <div class="port-txt1">
+                    <a class="port-div1 sm-h">What I did ?</a>
+                </div>
+                <div class="port-txt2">
+                    <a class="port-div2 mid-h">Portfolio</a>
+                </div>
+            </div>
+            <div class="port-table-holder">
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+                <div class="edu-tb-hold">
+                    <!-- education table -->
+                    <div class="tb-head-back">
+                        <a class="tb-head">Education</a>
+                    </div>
+                    <div class="edu-table">
+                        <table class="demTable">
+                            <thead>
+                                <tr>
+                                    <th>Qualification</th>
+                                    <th>Institute</th>
+                                    <th class="td-3">Board</th>
+                                    <th>Passing year</th>
+                                    <th>Results</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>BCA</td>
+                                    <td>Mohanlal Sukhadia University</td>
+                                    <td class="td-3">MSLU</td>
+                                    <td>2023</td>
+                                    <td><a class="td-link"
+                                            href="https://media.discordapp.net/attachments/1107621705301643344/1110465673009823765/naman_jain_BCA2_year.jpg?"
+                                            download="bca2year"><i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>12<sup class="sup">th</sup> Science (Maths)</td>
+                                    <td>Marry Matha Public School</td>
+                                    <td class="td-3">GSEB</td>
+                                    <td>2020</td>
+                                    <td><a class="td-link"
+                                            href="https://media.discordapp.net/attachments/1107621705301643344/1110465673622212711/naman_jain_class_12th.jpg?"
+                                            download><i class="bi bi-file-earmark-arrow-down-fill"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td>10<sup class="sup">th</sup></td>
+                                    <td>Jeevan Vikas High School</td>
+                                    <td class="td-3">GSEB</td>
+                                    <td>2018</td>
+                                    <td><a class="td-link"
+                                            href="https://media.discordapp.net/attachments/1107621705301643344/1110465673278271558/naman_jain_class_10th.jpg?"
+                                            download=""><i class="bi bi-file-earmark-arrow-down-fill"></i></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+
+                <div class="exp-tb-hold">
+                    <!-- Experience table -->
+                    <div class="tb-head-back">
+                        <a class="tb-head">Work Experience</a>
+                    </div>
+                    <div class="exp-table">
+                        <table class="demTable">
+                            <thead>
+                                <tr>
+                                    <th>Company</th>
+                                    <th>Job / Work</th>
+                                    <th>Apx.time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Dev Kirana Store</td>
+                                    <td>Account/staff management</td>
+                                    <td>8 months</td>
+                                </tr>
+                                <tr>
+                                    <td>Online</td>
+                                    <td>Freelancer</td>
+                                    <td>2 years</td>
+                                </tr>
+                                <tr>
+                                    <td>Nasu studios</td>
+                                    <td>Owner/GFX Artist</td>
+                                    <td>3 months +</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- end of portfolio section -->
+
+    <section class="contact" id="contact">
+        <!-- start of conatct me section -->
+        <div class="contact-holder">
+            <div class="contact-heading sec-gap">
+                <div class="cont-txt">
+                    <a class="cont-div1 sm-h">How to contact me ?</a>
+                </div>
+                <div class="cont-txt">
+                    <a class="cont-div2 mid-h">Contact me</a>
+                </div>
+            </div>
+            <div class="cont-form-hold">
+                <form class="cont-form">
+                    <div class="et-hold1">
+                        <div class="form-group">
+                            <input type="text" id="first-name" name="first-name" class="form-input"
+                                placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="last-name" name="last-name" class="form-input"
+                                placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="et-hold2">
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="Mobile Number"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-input" placeholder="Your Email"
+                                required>
+                        </div>
+                    </div>
+                    <div class="et-hold3">
+                        <div class="form-group">
+                            <textarea id="message" name="message" class="form-textarea"
+                                placeholder="Write Your Message Here." required></textarea>
+                        </div>
+                    </div>
+                    <div class="et-hold4">
+                        <div class="form-group">
+                            <input type="submit" value="Send Message" class="form-submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="touch-holder">
+                <div class="touch-heading">
+                    <a>GET IN TOUCH WITH ME</a>
+                </div>
+                <div class="touch-butt">
+                    <div class="add icons">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <a>Udaipur, Rajasthan.</a>
+                        <a>Pincode:313702</a>
+                    </div>
+                    <div class="email icons">
+                        <i class="bi bi-envelope-fill"></i>
+                        <a>namanjain2002qw@gmail.com</a>
+                        <a>nasuchacha1708@gmail.com</a>
+                    </div>
+                    <div class="phone icons">
+                        <i class="bi bi-telephone-outbound-fill"></i>
+                        <a href="tel:+91 7877452256">+91 7877452256</a>
+                        <a href="tel:+91 8905924424">+91 8905924424</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- end of contact me section -->
+
+    <section class="social">
+        <div class="social-holder">
+            <a href="https://www.instagram.com/self.nasu/" class="soc-icons">
+                <i class="bi bi-instagram"></i>
+                /self.nasu
+            </a>
+            <a href="https://www.linkedin.com/in/nasu1708/" class="soc-icons">
+                <i class="bi bi-linkedin"></i>
+                /nasu1708
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100092486165369" class="soc-icons">
+                <i class="bi bi-facebook"></i>
+                /Naman Jain
+            </a>
+            <a href="https://github.com/self-nasu" class="soc-icons">
+                <i class="bi bi-github"></i>
+                /self-nasu
+            </a>
+        </div>
+        <div class="social-holder2">
+            <a href="https://www.instagram.com/self.nasu/" class="soc-icons">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nasu1708/" class="soc-icons">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100092486165369" class="soc-icons">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://github.com/self-nasu" class="soc-icons">
+                <i class="bi bi-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="foot-holder">
+            <div class="copyrights">
+                <a class="sm-h">© 2024 All rights reserved by Naman Jain.</a>
+            </div>
+            <div class="get-temp">
+                <a class="sm-h" target="_blank" href="https://github.com/Self-nasu/nasu.github.io">Get temp by nasu.</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PRE BUILD JS LINK -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> <!-- auto type -->
+
+    <!-- MY JS CODE LINKING -->
+    <script src="javascript/autotype.js"></script>
+    <script src="javascript/navshowhide.js"></script>
+    <script src="javascript/preload.js"></script>
 
 </body>
 
