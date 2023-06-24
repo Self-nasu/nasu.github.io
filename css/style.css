@@ -255,6 +255,7 @@
     border: 1px solid #595959a2;
     border-radius: 5px;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.257);
+    transition: padding-top 0.3s ease-in-out;
 }
 
 .sr-cd {

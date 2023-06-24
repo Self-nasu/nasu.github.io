@@ -94,11 +94,14 @@
    }
    .cd-icon1{
        width: 320px;
+       transition: width 0.4s ease-in-out;
    }
    .cd-icon2 {
+       transition: width 0.4s ease-in-out;
        width: 430px;
    }
    .cd-icon3 {
+       transition: width 0.4s ease-in-out;
        width: 420px;
    }
     .sr-card:hover .cd-icon1 {
