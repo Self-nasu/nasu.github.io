@@ -101,7 +101,7 @@
 
 .landing-holder {
     display: flex;
-    background-image: url("https://media.discordapp.net/attachments/1106481810273206293/1110127623671128144/Untitled-1.png?");
+    background-image: url("/assets/other/Untitled-1.png");
     background-repeat: repeat-x;
     background-size: 550px;
     background-position: 0px 125px;
